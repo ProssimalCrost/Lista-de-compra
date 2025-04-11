@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(medium-grocery-store-aisle-filled-with-healthy-snacks.jpg);
+    background: cover;
+    /*background-color: #f2f2f2;*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .center {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(243, 160, 66);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #center2 > div {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px ;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fffb00;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li.comprado span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  li button {
+    margin-left: 5px;
+    background-color: #007bff;
+  }
+  
+  li button.excluir {
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    opacity: 0.8;
+  }
+  
